@@ -13,7 +13,7 @@ public class ClientController {
     public ClientDto getRandomClient() {
         log.info("AAA");
         return ClientDto.builder()
-                .email("aaa")
+                .email("aa")
                 .phone("bbb")
                 .build();
     }
