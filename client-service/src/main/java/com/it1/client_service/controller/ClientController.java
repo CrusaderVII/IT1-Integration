@@ -12,6 +12,7 @@ public class ClientController {
 
     public ClientDto getRandomClient() {
         log.info("AAA");
+        log.info("BBB");
         return ClientDto.builder()
                 .email("aa")
                 .phone("bbb")
